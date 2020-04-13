@@ -95,6 +95,38 @@ body:after {
     -webkit-box-shadow: none !important;
     box-shadow: none !important; }
 
+    .event-block {
+      min-width: 180px;
+
+    }
+    
+    .eventDiv {
+      padding: 20px;
+  
+      height: 500px;
+      width: 800px;
+      display: block;
+      text-align: center;
+    }
+    
+    .event-btn {
+      background-color: lightseagreen;
+      border-radius: 4px;
+      padding: 5px;
+      color: whitesmoke;
+      font-weight: bold;
+    }
+    
+    .imageDiv img {
+      height: 200px;
+      width: 200px;
+    }
+    
+    .eventDiv img {
+      height: 200px;
+      width: 200px;
+    }
+
 .site-section {
   padding: 2.5em 0; }
   @media (min-width: 768px) {
