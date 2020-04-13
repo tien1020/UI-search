@@ -1,8 +1,6 @@
-Thank you for using our template!
-
-For more awesome templates please visit https://colorlib.com/wp/templates/
-
-Copyright information for the template can't be altered/removed unless you purchase a license.
-More information about the license is available here: https://colorlib.com/wp/licence/
-
-Removing copyright information without the license will result in suspension of your hosting and/or domain name(s).
+- Go to this website: https://tien1020.github.io/UI-search/
+- Type name of the course in the search box
+- Click "Find Course" button
+- A new page will open with course description: Title, short description, level
+- Click "See more" button to get more detail
+- Click "Tien Nguyen" to go back to the home page
