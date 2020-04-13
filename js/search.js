@@ -4,7 +4,7 @@ $.ajax({
   }).then(function(response) {
     console.log(response);
     console.log(response[0].courseId);
-    for (var i = 0; i < 20; i++) {
+    for (var i = 0; i < 9; i++) {
 
         var eventDiv = $("<div class='eventDiv'>");
         var imageURL = response[i].imgUrl;
@@ -19,15 +19,16 @@ $.ajax({
 
         $("#events-display").append(eventDiv);
 
-        var venueAddress = $("<div>");
-        venueAddress.html(response[i].shortDescription);
-        eventDiv.append(venueAddress);
+        var description = $("<div>");
+        description.html(response[i].shortDescription);
+        eventDiv.append(description);
 
         $("#events-display").append(eventDiv);
 
-        var dateAndTime = $("<div>");
-        dateAndTime.html("Level: "+response[i].level);
-        eventDiv.append(dateAndTime);
+        var level = $("<div>");
+        level.html("Level: "+response[i].level);
+        level.attr("style","font-weight: bold;");
+        eventDiv.append(level);
 
 
         $("#events-display").append(eventDiv);
